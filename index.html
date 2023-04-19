@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="./index.js"></script>
+    <title>Oana State</title>
+</head>
+
+<body>
+
+    <div class='Inicio' id="inicio">
+
+        <nav class="headerSolid">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="#inicio" onclick="link()"><img src="./images/logo.png" style="max-height: 80px;"></a></label>
+            <ul class="ul">
+                <li><a href="#inicio" onclick="link()">Inicio</a></li>
+                <li><a href="#sobremi" onclick="link()">Sobre mi</a></li>
+                <li><a href="#servicios" onclick="link()">Que ofrezco</a></li>
+                <li><a href="#contacto" onclick="link()">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class='mainHeader'>
+          <div class='nombreHeader'>
+            <h1>OANA STATE</h1>
+          <h3>— fotógrafa</h3>
+          </div>
+  
+        </div>
+        <div class='pageBody'>
+            <div class='info perfil' id="sobremi">
+                <img class="profilePic" src="./images/portrait.jpg" />
+                <div class='descripcion'>
+                    <h2>Sobre mí</h2>
+                    <p>Hola, soy Oana State, y con <script>calcularEdad();</script> años me dedico a la fotografía.
+                        Estudié en Artesfera y cuento con titulación en:
+                    <ul>
+                        <li>Iniciación a la Fotografía y Manejo de Cámara</li>
+                        <li>Composición</li>
+                        <li>Iluminación</li>
+                        <li>Revelación y manejo de cámara analógica <b>*(en curso)</b></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="servicios" id="servicios">
+                <div class="text"><h1>¿Qué ofrezco?</h1></div>
+                <div class="info odd">
+                    <div class="text">
+                        <h2>Bodas, bautizos y comuniones</h2>
+                        <p>Para los momentos únicos e irrepetibles, es importante contar con un profesional que ofrezca el mejor servicio 
+                            fotográfico. Para mí, es muy importante que vuestro reportaje fotográfico sea único y especial, por eso me engargo 
+                            personalmente de captar las imágenes de los eventos para los que trabajo de una manera intimista, y siempre desde 
+                            una óptica creativa. </p>
+                    </div>
+                    <div class="foto">
+                        <img src="./images/boda.jpg" />
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="foto">
+                        <img src="./images/albumes.jpg" />
+                    </div>
+                    <div class="text">
+                        <h2>Álbumes de fotos</h2>
+                        <p>Álbumes de calidad superior, pensados para grandes acontecimientos y ocasiones. Guarda tus recuerdos para siempre con una encuadernación y un acabado profesional, y revisa las fotos de ese acontecimiento tan especial las veces que quieras.</p>
+                    </div>
+                </div>
+                <div class="info odd">
+                    <div class="text">
+                        <h2>Pendrives y DVDs</h2>
+                        <p>¿Eres mas de la era digital? Inmortaliza tus momentos en este formato, y elige el medio de almacenamiento que prefieras. Ya sea en unidad USB o en DVD.</p>
+                    </div>
+                    <div class="foto">
+                        <img src="./images/pendvd.png" />
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="foto">
+                        <img src="./images/cuadros.png" />
+                    </div>
+                    <div class="text">
+                        <h2>Telares y cuadros</h2>
+                        <p>Coloca una foto de tu momento favorito en la pared de casa, del tamaño que quieras y con la forma que elijas. Podrás elegir entre un cuadro enmarcado o un telar.</p>
+                    </div>
+                </div>
+                <div class="info odd">
+                    <div class="text">
+                        <h2>Souvenirs</h2>
+                        <p>Sorprende a tus invitados con recuerdos de todo tipo. Desde tazas, camisetas e imanes personalizados, hasta pequeños llaveros carrete con las fotografías que elijas.</p>
+                    </div>
+                    <div class="foto">
+                        <img src="./images/souvenirs.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="contacto" id="contacto">
+                <div class="text">
+                    <h1>Contacto:</h1>
+                </div>
+                <div class="infoContacto">
+                    <div class="tarjeta">
+                        <div class="tarjeta__interior">
+                            <div class="tarjeta__cara tarjeta__cara--frontal">
+                                
+                            </div>
+                            <div class="tarjeta__cara tarjeta__cara--reverso">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="footer">
+                <div class="enlaces">
+                    <a href="#inicio" onclick="link()">Inicio</a>
+                    <a href="#sobremi" onclick="link()">Sobre mí</a>
+                    <a href="#servicios" onclick="link()">Qué ofrezco</a>
+                    <a href="#contacto" onclick="link()">Contacto</a>
+                </div>
+                <div class="detallesFooter">
+                    <img src="./images/logo.png" />
+                    <div class="viasContacto">
+                        <div>
+                            <img src="./images/icons/mail.png" /> <a href="mailto:contacto@oanastate.com">contacto@oanastate.com</a>
+                        </div>
+                        <div>
+                            <img src="./images/icons/call.png" /> <a href="tel:+34642847475">+34 642 84 74 75</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div>
+                    <p>© Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+</body>
+
+</html>
