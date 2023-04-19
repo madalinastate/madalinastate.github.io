@@ -99,6 +99,11 @@ nav ul li a {
         transition: .2s;
     }
 
+    .logo a:hover,
+    .logo a.active{
+      background: transparent !important;
+    }
+
     #check:checked~ul {
         left: 0;
     }
