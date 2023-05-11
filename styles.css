@@ -50,7 +50,8 @@ nav ul li a {
     .checkbtn {
         display: inline-flex;
         align-items: center;
-        padding-left: 50px;
+        padding-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 
     .headerSolid img{
